@@ -1,3 +1,3 @@
 Name: Ahmad
-Background: Programming with Python and JS
+Skills: Basic frontend and EDA
 Goal: Master full-stack web development
