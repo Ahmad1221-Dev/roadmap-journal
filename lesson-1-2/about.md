@@ -1,3 +1,3 @@
 Name: Ahmad
-Background: Programming with Python and JS
+Background: Learned Data Analysis
 Goal: Master full-stack web development
