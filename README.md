@@ -22,3 +22,15 @@ Tracking my journey to becoming a full-stack web developer through Phase 1.
 1. `Ctrl + Shift + P` — Opens the Command Palette to quickly search settings and actions.
 2. `Ctrl + ~` (or ``Ctrl + ` ``) — Toggles the integrated terminal open and closed.
 3. `Alt + Up/Down Arrow` — Moves the current line of code up or down.
+
+## My Rules for Learning With AI
+1. **Never copy-paste code blindly:** I must understand every line before adding it to a repository.
+2. **Demand hints, not answers:** I will use AI as a tutor that provides guidance, not as a shortcut to bypass problem-solving.
+3. **Debug first, ask second:** I will try to read error logs and troubleshoot independently before prompting an AI.
+4. **Use templates for structure:** I will rely on structured prompts to keep AI responses focused and educational.
+5. **Document the struggle:** My learning logs must reflect actual blockers so I can track my growth.
+6. **Verify behavior:** Every code fix must be tested locally via the terminal or Node before committing.
+7. **Maintain file hygiene:** Keep configs, logs, and lessons organized in their designated paths.
+8. **Keep ownership of the roadmap:** The AI assists, but I am the one writing the code and building the portfolio.
+9. **Isolate complex logic:** When facing tough bugs, I will break them down into smaller test scripts.
+10. **Reflect regularly:** Use commit messages and markdown logs to capture the "why" behind technical decisions.
