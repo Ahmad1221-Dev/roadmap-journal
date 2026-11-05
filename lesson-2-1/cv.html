@@ -1,9 +1,106 @@
-<div class="top">
-  <div class="logo">Ali's Shop</div>
-  <div class="links"><div>Home</div><div>Products</div><div>Contact</div></div>
-</div>
-<div class="big-text">Welcome</div>
-<div class="content">
-  <div class="post"><div class="post-title">Eid Sale</div><div>Up to 40% off</div></div>
-</div>
-<div class="bottom">© 2026</div>
+<!-- It must contain: a header with your name and nav links that jump to sections (href="#skills"), a <main> with sections for About, Education, Skills, Projects, and a contact form (name, email, message, "I agree to be contacted" checkbox) using <label>s and validation attributes. Use real content about yourself, and be honest about what you're learning. -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV|Ahmad</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Ahmad Ali</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          Hi, I'm Ahmad. I'm a developer-in-training currently building a solid
+          foundation in software engineering, modern web technologies, and
+          developer workflows. I love breaking down complex problems and writing
+          clean, maintainable code.
+        </p>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <h3>Degree</h3>
+        <p> <strong>Bachelors in Computer Science</strong> | Punjab University | 2023 - 2027</p>
+        <h3>Self-Taught & Roadmap Developer</h3>
+        <p><strong>Full-Stack Engineering Path</strong> | 2026 – Present</p>
+        <ul>
+          <li>
+            Focusing on hands-on project building, version control with Git, and
+            semantic HTML/CSS.
+          </li>
+          <li>
+            Developing production-ready habits through rigorous daily coding
+            logs and debugging drills.
+          </li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <strong>Languages & Core:</strong> JavaScript (ES6+), HTML5, CSS3
+          </li>
+          <li>
+            <strong>Tools & Workflow:</strong> Git, GitHub, VS Code, Node.js,
+            CLI (Git Bash)
+          </li>
+          <li>
+            <strong>Practices:</strong> Conventional Commits, Semantic HTML,
+            Responsive Layouts
+          </li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <h3>Roadmap Journal</h3>
+        <p>
+          A structured project repository tracking my software engineering
+          milestones, featuring customized workflows, debugging logs, and
+          foundational web projects built from scratch.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact form</h2>
+        
+        <form action="">
+            <label>
+                Name
+                <input type="text" placeholder="Enter Your Name" required>
+            </label> <br>
+            <label>
+                Email
+                <input type="email" placeholder="example@gmail.com" required>
+            </label> <br>
+            <label>
+                Message <br>
+                <textarea name="message" id="msg" rows="5" cols="27" required>Type your message here</textarea>
+            </label> <br>
+            <label>
+                I agree to be contacted
+                <input type="checkbox" name="contact-agreement" value="True">
+            </label> <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
