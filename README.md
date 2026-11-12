@@ -34,3 +34,14 @@ Tracking my journey to becoming a full-stack web developer through Phase 1.
 8. **Keep ownership of the roadmap:** The AI assists, but I am the one writing the code and building the portfolio.
 9. **Isolate complex logic:** When facing tough bugs, I will break them down into smaller test scripts.
 10. **Reflect regularly:** Use commit messages and markdown logs to capture the "why" behind technical decisions.
+
+## Section 2: HTML & CSS Essentials
+
+### 2.1 Semantic CV Structure
+- Built a standards-compliant, accessible personal CV using native HTML5 elements (`<header>`, `<main>`, `<section>`, `<nav>`).
+- Implemented robust form elements with semantic `<label>` wrappers, input types, and browser validation rules (`required`).
+
+### 2.2 CSS Styling Essentials
+- Established a custom design system using **CSS Custom Properties (`:root`)** for color palettes and typographic hierarchy.
+- Applied responsive max-width layout constraints, surface card styling, and custom navigation button states.
+- Utilized modern **CSS Nesting** and pseudo-classes (like `:not([type='checkbox'])`) to cleanly style complex form components.
