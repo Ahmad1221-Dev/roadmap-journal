@@ -1,10 +1,11 @@
 :root {
   --bg-primary: #0f172a;
   --bg-surface: #1e293b;
-  --text-main:#f8fafc;
-  --text-muted:#94a3b8;
-  --accent:#38bdf8;
-  --accent-hover:#0ea5e9;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --accent: #38bdf8;
+  --accent-hover: #0ea5e9;
+  --btn-primary: rgb(16, 55, 82);
 
   --font-size-small: 1rem;
   --font-size-medium: 1.25rem;
@@ -19,6 +20,7 @@
 }
 
 body {
+  font-family: 'Saira', sans-serif;
   background: var(--bg-primary);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -40,17 +42,27 @@ h3 {
   font-size: var(--font-size-medium);
 }
 
-a {
-    color: var(--accent);
+nav a {
+  color: var(--accent);
+  text-decoration: none;
+  background-color: var(--btn-primary);
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+  padding: 0.25rem 0.5rem;
 }
 
 nav a:hover {
-    color: var(--accent-hover);
+  color: var(--accent-hover);
 }
 
 section {
   font-size: var(--font-size-small);
   background: var(--bg-surface);
+  border-radius: 0.25rem;
   padding: 0.5rem 1rem;
   margin: 1rem 0;
+}
+
+header {
+  text-align: center;
 }
