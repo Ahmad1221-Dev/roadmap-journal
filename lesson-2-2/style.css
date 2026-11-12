@@ -1,0 +1,56 @@
+:root {
+  --bg-primary: #0f172a;
+  --bg-surface: #1e293b;
+  --text-main:#f8fafc;
+  --text-muted:#94a3b8;
+  --accent:#38bdf8;
+  --accent-hover:#0ea5e9;
+
+  --font-size-small: 1rem;
+  --font-size-medium: 1.25rem;
+  --font-size-large: 1.5rem;
+  --font-size-xlarge: 2rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-primary);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: var(--text-main);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: var(--font-size-xlarge);
+}
+
+h2 {
+  font-size: var(--font-size-large);
+}
+
+h3 {
+  font-size: var(--font-size-medium);
+}
+
+a {
+    color: var(--accent);
+}
+
+nav a:hover {
+    color: var(--accent-hover);
+}
+
+section {
+  font-size: var(--font-size-small);
+  background: var(--bg-surface);
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+}
