@@ -66,3 +66,44 @@ section {
 header {
   text-align: center;
 }
+
+#contact {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+
+  input:not([type='checkbox']),
+  textarea {
+    width: 35%;
+    min-width: 250px;
+    border: 1px solid var(--accent-hover);
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: var(--bg-surface);
+    color: var(--text-main);
+    font-family: 'Saira', sans-serif;
+    outline: none;
+  }
+
+  input:focus,
+  textarea:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 5px var(--accent);
+  }
+
+  span {
+    margin-right: 0.5rem;
+  }
+
+  button {
+    background: var(--btn-primary);
+    color: var(--accent);
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0.75rem;
+    cursor: pointer;
+  }
+}
