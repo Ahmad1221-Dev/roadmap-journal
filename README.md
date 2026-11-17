@@ -24,6 +24,7 @@ Tracking my journey to becoming a full-stack web developer through Phase 1.
 3. `Alt + Up/Down Arrow` — Moves the current line of code up or down.
 
 ## My Rules for Learning With AI
+
 1. **Never copy-paste code blindly:** I must understand every line before adding it to a repository.
 2. **Demand hints, not answers:** I will use AI as a tutor that provides guidance, not as a shortcut to bypass problem-solving.
 3. **Debug first, ask second:** I will try to read error logs and troubleshoot independently before prompting an AI.
@@ -38,10 +39,19 @@ Tracking my journey to becoming a full-stack web developer through Phase 1.
 ## Section 2: HTML & CSS Essentials
 
 ### 2.1 Semantic CV Structure
+
 - Built a standards-compliant, accessible personal CV using native HTML5 elements (`<header>`, `<main>`, `<section>`, `<nav>`).
 - Implemented robust form elements with semantic `<label>` wrappers, input types, and browser validation rules (`required`).
 
 ### 2.2 CSS Styling Essentials
+
 - Established a custom design system using **CSS Custom Properties (`:root`)** for color palettes and typographic hierarchy.
 - Applied responsive max-width layout constraints, surface card styling, and custom navigation button states.
 - Utilized modern **CSS Nesting** and pseudo-classes (like `:not([type='checkbox'])`) to cleanly style complex form components.
+
+### 2.3 CSS Layouts (Flexbox & Grid)
+
+- Built a fully responsive book catalogue using **CSS Grid** track sizing functions (`repeat(auto-fit, minmax(220px, 1fr))`) for automatic column wrapping.
+- Implemented **Grid** and **Flex** nesting inside cards to have a vertical, linear card view.
+- Implemented **Flexbox** for clean header and navigation alignment.
+- Added responsive **media queries** (`@media`) to adapt layouts and navigation stacking for mobile viewports.
