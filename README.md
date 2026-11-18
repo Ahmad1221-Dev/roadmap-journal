@@ -55,3 +55,12 @@ Tracking my journey to becoming a full-stack web developer through Phase 1.
 - Implemented **Grid** and **Flex** nesting inside cards to have a vertical, linear card view.
 - Implemented **Flexbox** for clean header and navigation alignment.
 - Added responsive **media queries** (`@media`) to adapt layouts and navigation stacking for mobile viewports.
+
+## Section 3: Modern Java Script - the Core
+
+### 3.1 Variables, Types & Operators
+
+- Built a Smart Bill Splitter and implemented everything in integer paisa.
+- Used **Intl.formatNumber()** to properly format my currency.
+- Made sure that the leftover money and floating points are taken care of by using **Modulus %** operator.
+- Handled edge case like **0 people** by using ternary operator.
